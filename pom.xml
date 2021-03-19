@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.chenling</groupId>
+    <artifactId>online-taxi-three</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <!--
+        pom是maven依赖文件:打出来可以作为其他项目的maven依赖，在工程A中添加工程B的pom，A就可以使用B中的类。
+            用在父级工程或聚合工程中。用来做jar包的版本控制。
+        jar是java普通项目打包:通常是开发时要引用通用类，打成jar包便于存放管理。
+            当你使用某些功能时就需要这些jar包的支持，需要导入jar包。
+        war是java web项目打包:是做好一个web网站后，打成war包部署到服务器。目的是节省资源，提供效率。
+    -->
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+</project>
